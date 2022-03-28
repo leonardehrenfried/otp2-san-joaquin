@@ -20,13 +20,13 @@ san-joaquin/streetGraph.obj: otp.jar san-joaquin/osm.pbf
 build-graph: otp.jar download-gtfs san-joaquin/streetGraph.obj
 	java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=1044 -Xmx12G -jar otp.jar --loadStreet --save san-joaquin
 
-run-%: otp.jar
-	java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=1044 -jar otp.jar --load --serve $*
+run: otp.jar
+	java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=1044 -jar otp.jar --load --serve san-joaquin
 
 clean:
 	find . -name *.zip -printf '%p\n' -exec rm {} \;
-	find . -name graph.obj -printf '%p\n' -exec rm {} \;
-	find . -name streetGraph.obj -printf '%p\n' -exec rm {} \;
+	find . -name *graph.obj -printf '%p\n' -exec rm {} \;
+	find . -name *streetGraph.obj -printf '%p\n' -exec rm {} \;
 	find . -name *osm.pbf -printf '%p\n' -exec rm {} \;
 	find . -name osm.pbf -printf '%p\n' -exec rm {} \;
 

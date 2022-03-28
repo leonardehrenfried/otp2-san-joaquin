@@ -1,0 +1,56 @@
+{
+  "routingDefaults": {
+    "numItineraries": 5,
+    "bikeTriangleSafetyFactor": 0.4,
+    "bikeTriangleSlopeFactor": 0.3,
+    "bikeTriangleTimeFactor": 0.3
+  },
+  "transit": {
+    "dynamicSearchWindow" : {
+      "minTransitTimeCoefficient" : 2,
+      "minWaitTimeCoefficient" : 2,
+      "minWinTimeMinutes" : 120,
+      "maxWinTimeMinutes" : 720
+    }
+  },
+  "flex": {
+    "maxTransferDurationSeconds": 240
+  },
+  "updaters": [
+    {
+      "type": "stop-time-updater",
+      "frequencySec": 60,
+      "sourceType": "gtfs-http",
+      "url": "http://start.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/tripupdate",
+      "feedId": "1"
+    },
+    {
+      "type": "vehicle-positions",
+      "sourceType": "gtfs-http",
+      "url": "http://start.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+      "feedId": "1",
+      "frequencySec": 60
+    },
+    {
+      "type": "real-time-alerts",
+      "frequencySec": 60,
+      "url": "http://start.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/alert",
+      "feedId": "1"
+    },
+    {
+      "type": "stop-time-updater",
+      "frequencySec": 60,
+      "sourceType": "gtfs-http",
+      "url": "http://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=Tripupdate",
+      "feedId": "11"
+    },
+    {
+      "type": "stop-time-updater",
+      "frequencySec": 60,
+      "sourceType": "gtfs-http",
+      "url": "http://api.transitime.org/api/v1/key/dca04420/agency/san-joaquin/command/gtfs-rt/tripUpdates?format=bin",
+      "feedId": "7"
+    }
+  ]
+}
+
