@@ -28,7 +28,7 @@ After the graph build has completed you can start the OTP instance with
 make run
 ```
 
-and open http://localhos:8080
+and open http://localhost:8080
 
 ### Screenshots
 
