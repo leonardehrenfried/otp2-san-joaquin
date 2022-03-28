@@ -1,6 +1,6 @@
 .PRECIOUS: %/streetGraph.obj
 .PHONY: build-graph
-CURL:=curl -\# --fail
+CURL:=curl -\# --fail --location
 
 otp.jar:
 	${CURL} https://otp.leonard.io/snapshots/2.2-SNAPSHOT/otp-2.2.0-SNAPSHOT-shaded-latest.jar -o $@
@@ -12,7 +12,7 @@ san-joaquin/osm.pbf: norcal.osm.pbf
 	osmium extract norcal.osm.pbf --polygon san-joaquin/san-joaquin.geojson -o $@
 
 download-gtfs:
-	${CURL} -config gtfs-feeds.txt
+	${CURL} --config gtfs-feeds.txt
 
 san-joaquin/streetGraph.obj: otp.jar san-joaquin/osm.pbf
 	java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=1044 -Xmx12G -jar otp.jar --buildStreet --save san-joaquin

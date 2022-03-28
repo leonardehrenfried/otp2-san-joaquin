@@ -31,5 +31,5 @@ output = san-joaquin/san-joaquin.gtfs.zip
 url = https://www.modestoareaexpress.com/preview-gtfs.zip
 output = san-joaquin/modesto-express.gtfs.zip
 
-url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/blob/master/tracy-tracer.zip
+url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/tracy-tracer.zip
 output = san-joaquin/tracy-tracer.gtfs.zip
