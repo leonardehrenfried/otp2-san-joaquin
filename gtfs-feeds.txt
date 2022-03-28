@@ -1,0 +1,12 @@
+http://start.connexionz.net/rtt/public/utility/gtfs.aspx
+http://data.trilliumtransit.com/gtfs/stanislaus-ca-us/stanislaus-flex-ca-us.zip
+http://data.trilliumtransit.com/gtfs/manteca-ca-us/manteca-ca-us.zip
+http://data.trilliumtransit.com/gtfs/modesto-ca-us/modesto-ca-us-flex.zip
+http://data.trilliumtransit.com/gtfs/sanjoaquinflex-ca-us/sanjoaquinflex-ca-us.zip
+http://data.trilliumtransit.com/gtfs/blossomexpress-ca-us/blossomexpress-ca-us.zip
+http://www.sanjoaquinrtd.com/RTD-GTFS/RTD-GTFS.zip
+http://api.511.org/transit/datafeeds?api_key=e74ef98b-6e66-4d18-92be-e06755664137&operator_id=CE
+https://www.lodi.gov/DocumentCenter/View/2453/lodi_gtfs
+http://data.trilliumtransit.com/gtfs/sanjoaquins-ca-us/sanjoaquins-ca-us.zip
+https://www.modestoareaexpress.com/preview-gtfs.zip
+https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/blob/master/tracy-tracer.zip
