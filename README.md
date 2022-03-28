@@ -30,6 +30,14 @@ make run
 
 and open http://localhost:8080
 
+### Realtime
+
+The following realtime feeds are also configured:
+
+- San Joaquin RTD
+- Modesto Area Express
+- Stanislaus County
+
 ### Screenshots
 
 ![Manteca to Stockton](manteca-to-stockton.png)
