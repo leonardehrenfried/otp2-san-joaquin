@@ -50,6 +50,13 @@
       "sourceType": "gtfs-http",
       "url": "http://api.transitime.org/api/v1/key/dca04420/agency/san-joaquin/command/gtfs-rt/tripUpdates?format=bin",
       "feedId": "7"
+    },
+    // this bike share system is in NY state so it's just a test if feed can be parsed
+    {
+      "type": "vehicle-rental",
+      "frequencySec": 60,
+      "sourceType": "gbfs",
+      "url": "https://reddybikeshare.socialbicycles.com/opendata/gbfs.json"
     }
   ]
 }
