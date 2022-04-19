@@ -1,35 +1,42 @@
-url = http://start.connexionz.net/rtt/public/utility/gtfs.aspx
-output = san-joaquin/connexions.gtfs.zip
+url = https://data.trilliumtransit.com/gtfs/movestanislaus-ca-us/movestanislaus-ca-us--flex-v2.zip
+output = san-joaquin/movestanislaus-flex.gtfs.zip
 
-url = http://data.trilliumtransit.com/gtfs/stanislaus-ca-us/stanislaus-flex-ca-us.zip
-output = san-joaquin/stanislaus.flex.gtfs.zip
+url = https://www.stanrta.org/DocumentCenter/View/609/preview-gtfs.zip
+output = san-joaquin/stantra.gtfs.zip
 
-url = http://data.trilliumtransit.com/gtfs/manteca-ca-us/manteca-ca-us.zip
+url = https://data.trilliumtransit.com/gtfs/stanrta-ca-us/stanrta-ca-us--flex-v2.zip
+output = san-joaquin/stantra-flex.gtfs.zip
+
+url = https://www.ci.manteca.ca.us/CommunityDevelopment/MantecaTransit/GoogleTransit/google_transit.zip
 output = san-joaquin/manteca.gtfs.zip
 
-url = http://data.trilliumtransit.com/gtfs/modesto-ca-us/modesto-ca-us-flex.zip
-output = san-joaquin/modesto.flex.gtfs.zip
+url = https://data.trilliumtransit.com/gtfs/manteca-ca-us/manteca-ca-us--flex-v2.zip
+output = san-joaquin/manteca-flex.gtfs.zip
 
-url = http://data.trilliumtransit.com/gtfs/sanjoaquinflex-ca-us/sanjoaquinflex-ca-us.zip
-output = san-joaquin/san-joaquin.flex.gtfs.zip
+url = https://www.sanjoaquinrtd.com/RTD-GTFS/RTD-GTFS.zip
+output = san-joaquin/san-joaquin-rtd.gtfs.zip
 
-url = http://data.trilliumtransit.com/gtfs/blossomexpress-ca-us/blossomexpress-ca-us.zip
+url = https://data.trilliumtransit.com/gtfs/sanjoaquin-ca-us/sanjoaquin-ca-us--flex-v2.zip
+output = san-joaquin/san-joaquin-flex.gtfs.zip
+
+url = https://data.trilliumtransit.com/gtfs/turlock-ca-us/turlock-ca-us.zip
+output = san-joaquin/turlock.gtfs.zip
+
+url = https://data.trilliumtransit.com/gtfs/turlock-ca-us/turlock-ca-us--flex-v2.zip
+output = san-joaquin/turlock-flex.gtfs.zip
+
+url = https://data.trilliumtransit.com/gtfs/blossomexpress-ca-us/blossomexpress-ca-us.zip
 output = san-joaquin/blossom-express.gtfs.zip
 
-url = http://www.sanjoaquinrtd.com/RTD-GTFS/RTD-GTFS.zip
-output = san-joaquin/rtd.gtfs.zip
-
-url = http://api.511.org/transit/datafeeds?api_key=e74ef98b-6e66-4d18-92be-e06755664137&operator_id=CE
-output = san-joaquin/511.gtfs.zip
+url = https://api.511.org/transit/datafeeds?api_key=e74ef98b-6e66-4d18-92be-e06755664137&operator_id=CE
+output = san-joaquin/alamont-corridor-express.gtfs.zip
 
 url = https://www.lodi.gov/DocumentCenter/View/2453/lodi_gtfs
 output = san-joaquin/lodi.gtfs.zip
 
-url = http://data.trilliumtransit.com/gtfs/sanjoaquins-ca-us/sanjoaquins-ca-us.zip
-output = san-joaquin/san-joaquin.gtfs.zip
+url = https://data.trilliumtransit.com/gtfs/sanjoaquins-ca-us/sanjoaquins-ca-us.zip
+output = san-joaquin/san-joaquin-flex.gtfs.zip
 
-url = https://www.modestoareaexpress.com/preview-gtfs.zip
-output = san-joaquin/modesto-express.gtfs.zip
-
-url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/tracy-tracer.zip
+url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/blob/master/tracy-tracer.zip
 output = san-joaquin/tracy-tracer.gtfs.zip
+
