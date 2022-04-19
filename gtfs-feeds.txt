@@ -7,8 +7,8 @@ output = san-joaquin/stantra.gtfs.zip
 url = https://data.trilliumtransit.com/gtfs/stanrta-ca-us/stanrta-ca-us--flex-v2.zip
 output = san-joaquin/stantra-flex.gtfs.zip
 
-url = https://www.ci.manteca.ca.us/CommunityDevelopment/MantecaTransit/GoogleTransit/google_transit.zip
-output = san-joaquin/manteca.gtfs.zip
+#url = https://www.ci.manteca.ca.us/CommunityDevelopment/MantecaTransit/GoogleTransit/google_transit.zip
+#output = san-joaquin/manteca.gtfs.zip
 
 url = https://data.trilliumtransit.com/gtfs/manteca-ca-us/manteca-ca-us--flex-v2.zip
 output = san-joaquin/manteca-flex.gtfs.zip
@@ -37,6 +37,6 @@ output = san-joaquin/lodi.gtfs.zip
 url = https://data.trilliumtransit.com/gtfs/sanjoaquins-ca-us/sanjoaquins-ca-us.zip
 output = san-joaquin/san-joaquin-flex.gtfs.zip
 
-url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/blob/master/tracy-tracer.zip
+url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/tracy-tracer.zip
 output = san-joaquin/tracy-tracer.gtfs.zip
 
