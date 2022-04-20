@@ -35,7 +35,7 @@ url = https://www.lodi.gov/DocumentCenter/View/2453/lodi_gtfs
 output = san-joaquin/lodi.gtfs.zip
 
 url = https://data.trilliumtransit.com/gtfs/sanjoaquins-ca-us/sanjoaquins-ca-us.zip
-output = san-joaquin/san-joaquin-flex.gtfs.zip
+output = san-joaquin/san-joaquin.gtfs.zip
 
 url = https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/tracy-tracer.zip
 output = san-joaquin/tracy-tracer.gtfs.zip
