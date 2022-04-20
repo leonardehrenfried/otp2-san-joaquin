@@ -21,35 +21,36 @@
       "type": "stop-time-updater",
       "frequencySec": 60,
       "sourceType": "gtfs-http",
-      "url": "http://start.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/tripupdate",
-      "feedId": "1"
+      "url": "https://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=Tripupdate",
+      "feedId": "stanrta-ca-us"
     },
     {
       "type": "vehicle-positions",
       "sourceType": "gtfs-http",
-      "url": "http://start.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
-      "feedId": "1",
+      "url": "https://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=VehiclePosition",
+      "feedId": "stanrta-ca-us",
       "frequencySec": 60
     },
     {
       "type": "real-time-alerts",
       "frequencySec": 60,
-      "url": "http://start.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/alert",
-      "feedId": "1"
+      "url": "https://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=Alert",
+      "feedId": "stanrta-ca-us"
+    },
+    // san joaquin rtd
+    {
+      "type": "stop-time-updater",
+      "frequencySec": 60,
+      "sourceType": "gtfs-http",
+      "url": "https://api.transitime.org/api/v1/key/dca04420/agency/san-joaquin/command/gtfs-rt/tripUpdates?format=bin",
+      "feedId": "4"
     },
     {
       "type": "stop-time-updater",
       "frequencySec": 60,
       "sourceType": "gtfs-http",
-      "url": "http://max.availtec.com/InfoPoint/GTFS-Realtime.ashx?Type=Tripupdate",
-      "feedId": "11"
-    },
-    {
-      "type": "stop-time-updater",
-      "frequencySec": 60,
-      "sourceType": "gtfs-http",
-      "url": "http://api.transitime.org/api/v1/key/dca04420/agency/san-joaquin/command/gtfs-rt/tripUpdates?format=bin",
-      "feedId": "7"
+      "url": "http://api.transitime.org/api/v1/key/dca04420/agency/turlock/command/gtfs-rt/tripUpdates?format=bin",
+      "feedId": "turlock-ca-us"
     },
     // this bike share system is in NY state so it's just a test if feed can be parsed
     {
